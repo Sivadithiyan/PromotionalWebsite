@@ -1,0 +1,165 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  font-family: sans-serif;
+  background-color: black;
+  height: 100vh;
+  background-image: url('bg4.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+p{
+  font-family: cursive;
+  font-size: 20px;
+}
+
+
+h1{
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 50px;
+  letter-spacing: 2px;
+}
+
+.logo {
+  color: gold;
+  font-size: 30px;
+}
+
+.menu-bar {
+  background-color: #1c1c1c;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+
+  position: relative;
+}
+
+.menu-bar ul {
+  list-style: none;
+  display: flex;
+}
+
+.menu-bar ul li {
+  /* width: 120px; */
+  padding: 10px 30px;
+  /* text-align: center; */
+
+  position: relative;
+}
+
+.menu-bar ul li a {
+  font-size: 20px;
+  color:white;
+  text-decoration: none;
+
+  transition: all 0.3s;
+}
+
+.menu-bar ul li a:hover {
+  color:gold;
+}
+
+.fas {
+  float: right;
+  margin-left: 10px;
+  padding-top: 3px;
+}
+
+/* dropdown menu style */
+.dropdown-menu {
+  display: none;
+}
+
+.menu-bar ul li:hover .dropdown-menu {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background-color: #1c1c1c;
+}
+
+.menu-bar ul li:hover .dropdown-menu ul {
+  display: block;
+  margin: 10px;
+}
+
+.menu-bar ul li:hover .dropdown-menu ul li {
+  width: 150px;
+  padding: 10px;
+}
+
+.content{
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 100px;
+  color: white;
+  text-align: center;
+}
+
+.container{
+  width: 60%;
+  margin: 0 auto;
+  color: white;
+}
+
+.card{
+  height: 300px;
+  width: 300px;
+}
+
+.card:hover{
+  box-shadow: 0px 20px 50px #FFFFFF;
+  transition: all 0.3s;
+}
+
+.wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space_evenly;
+  padding_top: 100px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 150px;
+
+}
+
+#c1{
+  background: url("spotify.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#c2{
+  background: url("youtube.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#c3{
+  background: url("soundcloud.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+#namelogo{
+  color: gold;
+  font-size: 30px;
+  padding: 10px 30px;
+}
