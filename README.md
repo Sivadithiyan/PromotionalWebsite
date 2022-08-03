@@ -16,8 +16,8 @@ Add "about me" page
 Make it look nicer
 Get a cloud support and host the server for public use
 
-##Progress: 30%
+## Progress: 30%
 
-##Note:
+## Note:
 
 This is not my official website to show my technical achievements rather my musical achievements and updates. My very own introductory website is under construction
